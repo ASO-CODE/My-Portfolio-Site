@@ -1,4 +1,4 @@
-import IMG1 from "../../assets/portfolio1.jpg";
+import IMG1 from "../../assets/Weather App.png";
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.jpg";
@@ -8,9 +8,9 @@ import IMG6 from "../../assets/portfolio6.jpg";
 const portfolioData = [
   {
     img: IMG1,
-    title: "This is a portfolio item title",
-    github: "https://github.com",
-    live: "https://github.com",
+    title: "Weather App",
+    github: "https://github.com/ASO-CODE/React-Weather-App",
+    live: "https://aso-code-weather-app.netlify.app/",
   },
   {
     img: IMG2,
