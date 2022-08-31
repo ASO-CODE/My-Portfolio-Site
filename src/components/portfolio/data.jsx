@@ -1,5 +1,5 @@
 import IMG1 from "../../assets/Weather App.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
+import IMG2 from "../../assets/Hoobank.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.jpg";
 import IMG5 from "../../assets/portfolio5.png";
@@ -14,7 +14,7 @@ const portfolioData = [
   },
   {
     img: IMG2,
-    title: "This is a portfolio item title",
+    title: "Banking Landing Page",
     github: "https://github.com",
     live: "https://github.com",
   },
