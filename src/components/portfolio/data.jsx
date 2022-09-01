@@ -15,8 +15,8 @@ const portfolioData = [
   {
     img: IMG2,
     title: "Banking Landing Page",
-    github: "https://github.com",
-    live: "https://github.com",
+    github: "https://github.com/ASO-CODE/Banking-Landing-Page",
+    live: "https://aso-code-banking-landing-page.netlify.app/",
   },
   {
     img: IMG3,
