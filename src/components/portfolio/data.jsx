@@ -1,6 +1,6 @@
 import IMG1 from "../../assets/Weather App.jpg";
 import IMG2 from "../../assets/Hoobank.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
+import IMG3 from "../../assets/Crypto Tracker.png";
 import IMG4 from "../../assets/portfolio4.jpg";
 import IMG5 from "../../assets/portfolio5.png";
 import IMG6 from "../../assets/portfolio6.jpg";
@@ -20,9 +20,9 @@ const portfolioData = [
   },
   {
     img: IMG3,
-    title: "This is a portfolio item title",
-    github: "https://github.com",
-    live: "https://github.com",
+    title: "Crypto Price Tracker",
+    github: "https://github.com/ASO-CODE/Crypto-Price-Tracker",
+    live: "https://aso-code-crypto-tracker.netlify.app/",
   },
   {
     img: IMG4,
