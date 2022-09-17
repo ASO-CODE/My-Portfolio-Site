@@ -24,24 +24,7 @@ const portfolioData = [
     github: "https://github.com/ASO-CODE/Crypto-Price-Tracker",
     live: "https://aso-code-crypto-tracker.netlify.app/",
   },
-  {
-    img: IMG4,
-    title: "This is a portfolio item title",
-    github: "https://github.com",
-    live: "https://github.com",
-  },
-  {
-    img: IMG5,
-    title: "This is a portfolio item title",
-    github: "https://github.com",
-    live: "https://github.com",
-  },
-  {
-    img: IMG6,
-    title: "This is a portfolio item title",
-    github: "https://github.com",
-    live: "https://github.com",
-  },
+ 
 ];
 
 export default portfolioData;

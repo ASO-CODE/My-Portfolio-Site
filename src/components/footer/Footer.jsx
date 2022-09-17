@@ -31,13 +31,17 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://now.com" target="_blank" rel="noreferrer">
+        <a href="https://github.com/ASO-CODE" target="_blank" rel="noreferrer">
           <BsGithub />
         </a>
-        <a href="https://now.com" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.linkedin.com/in/solomon-awanle-258950136"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BsLinkedin />
         </a>
-        <a href="https://now.com" target="_blank" rel="noreferrer">
+        <a href="https://twitter.com/SAwanle" target="_blank" rel="noreferrer">
           <BsTwitter />
         </a>
       </div>

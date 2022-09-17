@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./header.css";
 import CTA from "./CTA";
-import ME from "../../assets/My Pic.png";
+import ME from "../../assets/ASO-CODE.png";
 import HeaderSocials from "./HeaderSocials";
 import AnimatedLetters from "../AnimatedLetters";
 const Header = () => {
