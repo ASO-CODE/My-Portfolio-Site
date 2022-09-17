@@ -6,22 +6,7 @@ import HeaderSocials from "./HeaderSocials";
 import AnimatedLetters from "../AnimatedLetters";
 const Header = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
-  const nameArray = [
-    "S",
-    "o",
-    "l",
-    "o",
-    "m",
-    "o",
-    "n",
-    " ",
-    "A",
-    "w",
-    "a",
-    "n",
-    "l",
-    "e",
-  ];
+  const nameArray = ["S", "o", "l", "o", "m", "o", "n"];
   const jobArray = [
     "F",
     "r",
@@ -35,12 +20,6 @@ const Header = () => {
     "D",
     "e",
     "v",
-    "e",
-    "l",
-    "o",
-    "p",
-    "e",
-    "r",
     ".",
   ];
 

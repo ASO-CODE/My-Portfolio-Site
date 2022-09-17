@@ -1,9 +1,7 @@
 import IMG1 from "../../assets/Weather.png";
 import IMG2 from "../../assets/Hoobank.jpg";
 import IMG3 from "../../assets/Crypto Tracker.png";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+
 
 const portfolioData = [
   {
