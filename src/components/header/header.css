@@ -8,7 +8,9 @@ header {
   position: relative;
   text-align: center;
   height: 100%;
-  position: relative;
+  transform-style: preserve-3d;
+  animation: fadeIn 1s forwards;
+  animation-delay: 1s;
 }
 
 /*********** CTA ***************/
@@ -17,6 +19,7 @@ header {
   display: flex;
   gap: 1.2rem;
   justify-content: center;
+  animation: fadeIn 1s 1.8s backwards;
 }
 
 /*********** HEADER SOCIALS ***************/
@@ -60,22 +63,21 @@ header {
   font-size: 0.9rem;
 }
 
-
 /* ************* MEDIA QUERIES (MEDIUM SCREENS) ************* */
 @media screen and (max-width: 1024px) {
-    header{
-        height: 100vh;
-    }
+  header {
+    height: 100vh;
+  }
 }
-
 
 /* ************* MEDIA QUERIES (SMALL SCREENS) ************* */
 @media screen and (max-width: 769px) {
-    header{
-        height: 100vh;
-    }
+  header {
+    height: 100vh;
+  }
 
-    .header__socials, .scroll__down{
-        display: none;
-    }
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
 }

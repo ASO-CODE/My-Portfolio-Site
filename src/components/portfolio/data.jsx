@@ -1,4 +1,4 @@
-import IMG1 from "../../assets/Weather App.jpg";
+import IMG1 from "../../assets/Weather.png";
 import IMG2 from "../../assets/Hoobank.jpg";
 import IMG3 from "../../assets/Crypto Tracker.png";
 import IMG4 from "../../assets/portfolio4.jpg";
