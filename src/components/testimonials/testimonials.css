@@ -20,6 +20,10 @@
   user-select: none;
 }
 
+.client__role {
+  font-size: 12px;
+}
+
 .client__review {
   color: var(--color-light);
   font-weight: 300;

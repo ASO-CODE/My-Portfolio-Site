@@ -4,11 +4,11 @@ import People from "./data";
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, Autoplay } from "swiper";
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
+import "swiper/css";
+import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 const Testimonials = () => {
@@ -35,14 +35,14 @@ const Testimonials = () => {
         }}
       >
         {people.map((person, personIndex) => {
-          const { id, img, name, quote } = person;
+          const { id, img, name, quote, role } = person;
 
           return (
             <SwiperSlide key={id} className="testimonial">
               <div className="client__avatar">
                 <img src={img} alt={name} />
               </div>
-              <h5 className="client__name">{name}</h5>
+              <h5 className="client__name">{name}</h5> <span className="client__role">{role}</span>
               <small className="client__review">{quote}</small>
             </SwiperSlide>
           );
